@@ -1,0 +1,113 @@
+//colors
+$calc-green: #00f2e6;
+$calc-light-grey: #c1c1c1;
+$calc-grey: #575757;
+$calc-deep-grey: #4d4d4d;
+
+@font-face {
+    font-family: SFUIText;
+    src: url(../SFUIText.ttf);
+}
+@font-face {
+    font-family: SFUITextLight;
+    src: url(../SFUITextLight.ttf);
+}
+
+.caculate {
+    background: $calc-grey;
+    text-align: right;
+    padding: 50px 40px 2px;
+    font-family: SFUIText;    
+}
+.process {
+    color: $calc-light-grey;
+    font-size: 28px;
+    margin-bottom: 0; 
+}
+.keyin {
+    color: white;
+    font-size: 100px;
+    line-height: 1em;
+    margin-top: 5px;
+    background: none;
+    width: 100%;
+    text-align: right;
+    border: 0;
+    outline: none;
+}
+.keyboard {
+    height: calc(100vh - 220px);
+    font-family: SFUIText; 
+    background: $calc-deep-grey; 
+    padding:  15px 7px; 
+    .row {
+        margin-right: 0;
+        margin-left: 0;
+        .col {
+            padding-right: 10px;
+            padding-left: 10px;
+            text-align: center;
+        }
+    }
+}
+.btn {
+    width: 70px;
+    height: 70px;
+    text-align: center;
+    line-height: 55px;
+    font-size: 20px;;
+    border: 1px solid white;
+    border-radius: 35px;
+    color: white; 
+    background: none;
+    margin-bottom: 15px;
+    position: relative;
+    &:active {
+        background: white;
+        color: $calc-deep-grey;
+    }
+    &:focus {
+        box-shadow: none;
+    }
+}
+.btn-green {
+    color: $calc-green;
+    border-color: $calc-green;
+    &:active {
+        background: $calc-green;
+        color: white;
+    }
+}
+.dot {
+    height: 18px;
+    display: inline-block;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.btn-long {
+    width: 100%;
+}
+.font-22 {
+    font-size: 22px;
+}
+.font-24 {
+    font-size: 24px;
+}
+.font-28 {
+    font-size: 28px;
+}
+.font-32 {
+    font-size: 32px;
+}
+.font-36 {
+    font-size: 36px;
+}
+.font-38 {
+    font-size: 38px;
+}
+.SFUIText-Light {
+    font-family: SFUITextLight;
+}

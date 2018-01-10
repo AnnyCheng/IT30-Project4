@@ -1,0 +1,170 @@
+0 info it worked if it ends with ok
+1 verbose cli [ 'C:\\Program Files\\nodejs\\node.exe',
+1 verbose cli   'C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js',
+1 verbose cli   'install',
+1 verbose cli   'jquery@1.9.1',
+1 verbose cli   '-',
+1 verbose cli   '3' ]
+2 info using npm@3.10.10
+3 info using node@v6.9.5
+4 silly loadCurrentTree Starting
+5 silly install loadCurrentTree
+6 silly install readLocalPackageData
+7 silly fetchPackageMetaData jquery@1.9.1
+8 silly fetchPackageMetaData -
+9 silly fetchPackageMetaData 3
+10 silly fetchNamedPackageData jquery
+11 silly mapToRegistry name jquery
+12 silly mapToRegistry using default registry
+13 silly mapToRegistry registry https://registry.npmjs.org/
+14 silly mapToRegistry data Result {
+14 silly mapToRegistry   raw: 'jquery',
+14 silly mapToRegistry   scope: null,
+14 silly mapToRegistry   escapedName: 'jquery',
+14 silly mapToRegistry   name: 'jquery',
+14 silly mapToRegistry   rawSpec: '',
+14 silly mapToRegistry   spec: 'latest',
+14 silly mapToRegistry   type: 'tag' }
+15 silly mapToRegistry uri https://registry.npmjs.org/jquery
+16 silly fetchOtherPackageData -
+17 silly cache add args [ '-', null ]
+18 verbose cache add spec -
+19 silly fetchNamedPackageData 3
+20 silly mapToRegistry name 3
+21 silly mapToRegistry using default registry
+22 silly mapToRegistry registry https://registry.npmjs.org/
+23 silly mapToRegistry data Result {
+23 silly mapToRegistry   raw: '3',
+23 silly mapToRegistry   scope: null,
+23 silly mapToRegistry   escapedName: '3',
+23 silly mapToRegistry   name: '3',
+23 silly mapToRegistry   rawSpec: '',
+23 silly mapToRegistry   spec: 'latest',
+23 silly mapToRegistry   type: 'tag' }
+24 silly mapToRegistry uri https://registry.npmjs.org/3
+25 silly cache add parsed spec Result {
+25 silly cache add   raw: '-',
+25 silly cache add   scope: null,
+25 silly cache add   escapedName: null,
+25 silly cache add   name: null,
+25 silly cache add   rawSpec: '-',
+25 silly cache add   spec: 'C:\\Users\\dance\\Documents\\My Documents\\IT30\\IT30-Project4\\-',
+25 silly cache add   type: 'local' }
+26 error addLocal Could not install C:\Users\dance\Documents\My Documents\IT30\IT30-Project4\-
+27 silly fetchPackageMetaData Error: ENOENT: no such file or directory, open 'C:\Users\dance\Documents\My Documents\IT30\IT30-Project4\-'
+27 silly fetchPackageMetaData     at Error (native)
+27 silly fetchPackageMetaData  error for - { Error: ENOENT: no such file or directory, open 'C:\Users\dance\Documents\My Documents\IT30\IT30-Project4\-'
+27 silly fetchPackageMetaData     at Error (native)
+27 silly fetchPackageMetaData   errno: -4058,
+27 silly fetchPackageMetaData   code: 'ENOENT',
+27 silly fetchPackageMetaData   syscall: 'open',
+27 silly fetchPackageMetaData   path: 'C:\\Users\\dance\\Documents\\My Documents\\IT30\\IT30-Project4\\-' }
+28 verbose request uri https://registry.npmjs.org/3
+29 verbose request no auth needed
+30 info attempt registry request try #1 at 21:21:51
+31 verbose request id 5fde090979b2f0b1
+32 verbose etag "5a284285-b0c"
+33 verbose lastModified Wed, 6 Dec 2017 19:18:29 GMT
+34 http request GET https://registry.npmjs.org/3
+35 verbose request uri https://registry.npmjs.org/jquery
+36 verbose request no auth needed
+37 info attempt registry request try #1 at 21:21:51
+38 verbose etag "5a15402c-163b9"
+39 verbose lastModified Wed, 22 Nov 2017 9:15:24 GMT
+40 http request GET https://registry.npmjs.org/jquery
+41 http 200 https://registry.npmjs.org/jquery
+42 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+42 verbose headers   server: 'UploadServer',
+42 verbose headers   'cache-control': 'max-age=300',
+42 verbose headers   'last-modified': 'Tue, 9 Jan 2018 7:55:34 GMT',
+42 verbose headers   etag: '"5a547576-164cc"',
+42 verbose headers   'content-encoding': 'gzip',
+42 verbose headers   'content-length': '11172',
+42 verbose headers   'accept-ranges': 'bytes',
+42 verbose headers   date: 'Wed, 10 Jan 2018 05:21:51 GMT',
+42 verbose headers   via: '1.1 varnish',
+42 verbose headers   age: '5066',
+42 verbose headers   connection: 'keep-alive',
+42 verbose headers   'x-served-by': 'cache-sea1038-SEA',
+42 verbose headers   'x-cache': 'HIT',
+42 verbose headers   'x-cache-hits': '16',
+42 verbose headers   'x-timer': 'S1515561712.719407,VS0,VE0',
+42 verbose headers   vary: 'Accept-Encoding, Accept' }
+43 silly get cb [ 200,
+43 silly get   { 'content-type': 'application/json; charset=UTF-8',
+43 silly get     server: 'UploadServer',
+43 silly get     'cache-control': 'max-age=300',
+43 silly get     'last-modified': 'Tue, 9 Jan 2018 7:55:34 GMT',
+43 silly get     etag: '"5a547576-164cc"',
+43 silly get     'content-encoding': 'gzip',
+43 silly get     'content-length': '11172',
+43 silly get     'accept-ranges': 'bytes',
+43 silly get     date: 'Wed, 10 Jan 2018 05:21:51 GMT',
+43 silly get     via: '1.1 varnish',
+43 silly get     age: '5066',
+43 silly get     connection: 'keep-alive',
+43 silly get     'x-served-by': 'cache-sea1038-SEA',
+43 silly get     'x-cache': 'HIT',
+43 silly get     'x-cache-hits': '16',
+43 silly get     'x-timer': 'S1515561712.719407,VS0,VE0',
+43 silly get     vary: 'Accept-Encoding, Accept' } ]
+44 verbose get saving jquery to C:\Users\dance\AppData\Roaming\npm-cache\registry.npmjs.org\jquery\.cache.json
+45 verbose correctMkdir C:\Users\dance\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+46 http 200 https://registry.npmjs.org/3
+47 verbose headers { 'content-type': 'application/json; charset=UTF-8',
+47 verbose headers   server: 'UploadServer',
+47 verbose headers   'cache-control': 'max-age=300',
+47 verbose headers   'last-modified': 'Sat, 9 Dec 2017 15:04:14 GMT',
+47 verbose headers   etag: '"5a2bfb6e-1130"',
+47 verbose headers   'content-encoding': 'gzip',
+47 verbose headers   'content-length': '1490',
+47 verbose headers   'accept-ranges': 'bytes',
+47 verbose headers   date: 'Wed, 10 Jan 2018 05:21:51 GMT',
+47 verbose headers   via: '1.1 varnish',
+47 verbose headers   age: '0',
+47 verbose headers   connection: 'keep-alive',
+47 verbose headers   'x-served-by': 'cache-sea1023-SEA',
+47 verbose headers   'x-cache': 'MISS',
+47 verbose headers   'x-cache-hits': '0',
+47 verbose headers   'x-timer': 'S1515561712.725569,VS0,VE66',
+47 verbose headers   vary: 'Accept-Encoding, Accept' }
+48 silly get cb [ 200,
+48 silly get   { 'content-type': 'application/json; charset=UTF-8',
+48 silly get     server: 'UploadServer',
+48 silly get     'cache-control': 'max-age=300',
+48 silly get     'last-modified': 'Sat, 9 Dec 2017 15:04:14 GMT',
+48 silly get     etag: '"5a2bfb6e-1130"',
+48 silly get     'content-encoding': 'gzip',
+48 silly get     'content-length': '1490',
+48 silly get     'accept-ranges': 'bytes',
+48 silly get     date: 'Wed, 10 Jan 2018 05:21:51 GMT',
+48 silly get     via: '1.1 varnish',
+48 silly get     age: '0',
+48 silly get     connection: 'keep-alive',
+48 silly get     'x-served-by': 'cache-sea1023-SEA',
+48 silly get     'x-cache': 'MISS',
+48 silly get     'x-cache-hits': '0',
+48 silly get     'x-timer': 'S1515561712.725569,VS0,VE66',
+48 silly get     vary: 'Accept-Encoding, Accept' } ]
+49 verbose get saving 3 to C:\Users\dance\AppData\Roaming\npm-cache\registry.npmjs.org\3\.cache.json
+50 verbose correctMkdir C:\Users\dance\AppData\Roaming\npm-cache correctMkdir not in flight; initializing
+51 silly rollbackFailedOptional Starting
+52 silly rollbackFailedOptional Finishing
+53 silly runTopLevelLifecycles Finishing
+54 silly install printInstalled
+55 verbose stack Error: ENOENT: no such file or directory, open 'C:\Users\dance\Documents\My Documents\IT30\IT30-Project4\-'
+55 verbose stack     at Error (native)
+56 verbose cwd C:\Users\dance\Documents\My Documents\IT30\IT30-Project4
+57 error Windows_NT 10.0.16299
+58 error argv "C:\\Program Files\\nodejs\\node.exe" "C:\\Program Files\\nodejs\\node_modules\\npm\\bin\\npm-cli.js" "install" "jquery@1.9.1" "-" "3"
+59 error node v6.9.5
+60 error npm  v3.10.10
+61 error path C:\Users\dance\Documents\My Documents\IT30\IT30-Project4\-
+62 error code ENOENT
+63 error errno -4058
+64 error syscall open
+65 error enoent ENOENT: no such file or directory, open 'C:\Users\dance\Documents\My Documents\IT30\IT30-Project4\-'
+66 error enoent ENOENT: no such file or directory, open 'C:\Users\dance\Documents\My Documents\IT30\IT30-Project4\-'
+66 error enoent This is most likely not a problem with npm itself
+66 error enoent and is related to npm not being able to find a file.
+67 verbose exit [ -4058, true ]
