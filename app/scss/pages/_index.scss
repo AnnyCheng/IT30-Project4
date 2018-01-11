@@ -13,11 +13,10 @@ $calc-deep-grey: #4d4d4d;
     src: url(../SFUITextLight.ttf);
 }
 
-.caculate {
+.calculate {
     background: $calc-grey;
     text-align: right;
     padding: 50px 40px 2px;
-    font-family: SFUIText;    
 }
 .process {
     color: $calc-light-grey;
@@ -36,19 +35,10 @@ $calc-deep-grey: #4d4d4d;
     outline: none;
 }
 .keyboard {
-    height: calc(100vh - 220px);
-    font-family: SFUIText; 
+    height: calc(100vh - 220px); 
     background: $calc-deep-grey; 
     padding:  15px 7px; 
-    .row {
-        margin-right: 0;
-        margin-left: 0;
-        .col {
-            padding-right: 10px;
-            padding-left: 10px;
-            text-align: center;
-        }
-    }
+    text-align: center;
 }
 .btn {
     width: 70px;
